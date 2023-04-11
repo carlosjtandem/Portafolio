@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.layout {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 132px;
+  /* logo */
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.header .logo {
+  flex-grow: 2;
+  display: flex;
+}
+
+.header .logo span {
+  display: block;
+  font-size: 70px;
+  font-weight: bolder;
+  /* margin-top: -1px; */
+}
+
+.header .logo h2 {
+  display: block;
+  flex-basis: 40px;
+  margin-left: 10px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.header nav {
+  flex-grow: 1;
+
+}
+
+.header nav ul {
+  height: 132px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.header li {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.header li a {
+  color: black;
+  text-decoration: none;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.header .active,
+.header a:hover {
+  color: coral;
+}
+
+.content{
+  min-height: 300px;
+}
+
+.footer{
+  min-height: 100px;
+  line-height: 100px;
+  color: #444;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 25px;
+  border-top: 3px solid black;
+  padding-top: 25px;
+  background-color: rgb(192, 184, 184);
+}
+
