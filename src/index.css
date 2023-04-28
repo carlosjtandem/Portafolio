@@ -80,13 +80,13 @@ code {
   color: coral;
 }
 
-.content{
-  min-height: 300px;
+.content {
+  min-height: 650px;
 }
 
-.footer{
-  min-height: 100px;
-  line-height: 100px;
+.footer {
+  min-height: 40px;
+  line-height: 20px;
   color: #444;
   text-align: center;
   font-size: 14px;
@@ -96,3 +96,142 @@ code {
   background-color: rgb(192, 184, 184);
 }
 
+.home h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.home strong {
+  color: #e60c0c;
+}
+
+.home h2 {
+  color: #4b4848;
+  font-weight: lighter;
+}
+
+/* stilo para boton del index */
+.home a {
+  padding: 4px;
+  border-radius: 5px;
+  color: white;
+  background-color: #a02424;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 300ms;
+}
+
+.home a:hover {
+  background-color: green;
+}
+
+.page .heading home .heading {
+  font-size: 32px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.page .heading {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+home .p {
+  color: #4b4848;
+}
+
+input[type='text'],
+textarea {
+  display: block;
+  padding: 7px;
+  margin-top: 20px;
+  width: 200px;
+}
+
+input[type='submit'],
+button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 10px;
+  /*espacio superior con el textarea */
+  border: 0px;
+  color: white;
+  background-color: #a02424;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 300ms;
+}
+
+input[type='submit'],
+button:hover {
+  background-color: green;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-item {
+  flex-basis: 35%;  /*ancho del contenedor de imagenes*/
+  flex-grow: 1;
+  margin: 30px; 
+}
+
+.work-item img {
+  width: 60%;
+  transition: all 500ms;
+}
+
+.work-item .mask:hover img {
+  width: 90%;  /*cuanto se agranda en el hover*/
+  margin-right: 10px;
+  margin: 10px;
+}
+
+.work-item .mask {
+
+  width: 80%;
+  height: 250px;
+  overflow: hidden;
+  border: 0px solid #ddd;
+  box-shadow: 10px 25px 32px #a8a8a8;
+
+}
+
+
+
+
+.work-item span {
+  display: block;
+  color: gray;
+  margin-top: 35px;
+}
+
+.work-item h2 {
+  display: block;
+  font-size: 22px;
+  color: black;
+  margin-top: 5px;
+}
+
+.work-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.container-images {
+  display: block;
+  grid-template-columns: 30% 30% 30% 30%;
+
+}
+
+.item {
+
+  width: 10%;
+  height: 100%;
+}
